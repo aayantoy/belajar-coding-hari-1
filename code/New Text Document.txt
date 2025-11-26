@@ -1,6 +1,6 @@
 untuk login github :
-git config --global user.name "Nama Lu Disini"
-git config --global user.email "emailgithublu@gmail.com"
+git config --global user.name "aayantoy"
+git config --global user.email "afifardiyanto3@gmail.com"
 
 untuk simpan dan up:
 git add .

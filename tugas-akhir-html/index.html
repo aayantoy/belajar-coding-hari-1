@@ -6,11 +6,59 @@
     <title>Document</title>
 </head>
 <body>
-    <header> </header>
-
+    <header>
+        <h1>latihan lagi</h1>
+    </header>
     <main> 
         <img src="assets/img/1.jpg" alt="fotogua">
+        <nav>
+            <ul>
+                <li><a href="#tentang">Tentang HTML</a></li>
+                <li><a href="#contoh">Contoh Code</a></li>
+                <li><a href="#video">Video Turorial</a></li>
+            </ul>
+        </nav>
+        <section id="tentang">
+            <h1>Tentang HTML</h1><h2>Mengenal Elemen HTML</h2>
         
+            <p>
+            HTML (HyperText Markup Language) adalah bahasa markup yang digunakan untuk menyusun konten di web. 
+            Elemen-elemen seperti paragraf, gambar, dan tautan mendefinisikan struktur halaman.
+            </p>
+            <h3>Apa itu HTML?</h3>
+            <p>
+            HTML bukanlah bahasa pemrograman; ini adalah bahasa markup. Ini berarti HTML menggunakan serangkaian tag dan elemen untuk memberi label dan menyusun bagian-bagian konten. Peramban web (seperti Chrome, Firefox, atau Safari) membaca dokumen HTML dan menerjemahkan tag-tag ini menjadi tampilan visual yang dapat kita lihat.
+            </p>
+            <h3>Atribut HTML</h3>
+            <p>
+            Atribut digunakan untuk memberikan informasi tambahan tentang suatu elemen. Atribut selalu ditempatkan di tag pembuka dan biasanya terdiri dari pasangan nama="nilai".
+            </p>
+            <p>
+            Contoh: <img src="foto.jpg" alt="Sebuah foto" width="300">
+            </p>
+            <p>
+            Dalam contoh di atas, src, alt, dan width adalah atribut yang memberikan nilai sumber gambar, deskripsi alternatif, dan lebar gambar.
+            </p>
+        </section>
+        <section id="contoh">
+            <h1>Contoh Code</h1>
+            <h2>Contoh Paragraf HTML</h2>
+            <pre><code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;Contoh&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;h1&gt;Ini adalah Heading&lt;/h1&gt;
+                &lt;p&gt;Ini adalah sebuah paragraf teks.&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+            </code></pre>
+        </section>
+        <section>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7DHq0o5ViqI?si=0HUIrXM-hIiRxBK7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
     </main>
 
     <footer>  </footer>
