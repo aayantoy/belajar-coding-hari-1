@@ -1,0 +1,8 @@
+untuk login github :
+git config --global user.name "Nama Lu Disini"
+git config --global user.email "emailgithublu@gmail.com"
+
+untuk simpan dan up:
+git add .
+git commit -m "isi sesuai kebutuhan"
+git push
